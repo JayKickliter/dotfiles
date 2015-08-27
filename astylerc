@@ -1,0 +1,24 @@
+--style=allman
+--keep-one-line-blocks
+--convert-tabs
+--align-pointer=middle
+--align-reference=name
+
+--indent=spaces=4
+
+# Remove brackets from conditional statements (e.g. 'if', 'for', 'while'...)
+--remove-brackets
+
+# Insert space padding between a header (e.g. 'if', 'for', 'while'...) and paren
+--pad-header
+
+--indent-col1-comments
+
+# Do not retain a backup of the original file. The original file is purged after it is formatted.
+--suffix=.orig
+
+# Insert space padding around parenthesis on the inside only
+--pad-paren-in
+
+# Remove extra space padding around parenthesis on the inside and outside
+--unpad-paren
